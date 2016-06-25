@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[[train3 2016-06-04 18:31:27] ................²âÊÔ¿ò¼ÜÖ´ÐÐ¿ªÊ¼......................]]>
+    </line>
+    <line>
+      <![CDATA[[train3 2016-06-04 18:31:27] ²âÊÔÌ×¼þ¡¾logintestcase²âÊÔÌ×¼þ¡¿Ö´ÐÐ¿ªÊ¼]]>
+    </line>
+    <line>
+      <![CDATA[[train3 2016-06-04 18:32:58] ²âÊÔÌ×¼þ¡¾logintestcase²âÊÔÌ×¼þ¡¿Ö´ÐÐ½áÊø]]>
+    </line>
+    <line>
+      <![CDATA[[train3 2016-06-04 18:32:58] -------------------------²âÊÔ¿ò¼ÜÖ´ÐÐ½áÊø-------------------------]]>
+    </line>
+    <line>
+      <![CDATA[[train3 2016-06-04 18:32:58] -------------------------ÒÑ¾­·¢ËÍÓÊ¼þ-------------------------]]>
+    </line>
+  </reporter-output>
+  <suite name="logintestcase²âÊÔÌ×¼þ" duration-ms="90228" started-at="2016-06-04T10:31:27Z" finished-at="2016-06-04T10:32:58Z">
+    <groups>
+    </groups>
+    <test name="logintestcase²âÊÔÀà" duration-ms="90228" started-at="2016-06-04T10:31:27Z" finished-at="2016-06-04T10:32:58Z">
+      <class name="testcase.UserTestClass">
+        <test-method status="PASS" signature="initDriver(java.lang.String)[pri:0, instance:testcase.UserTestClass@5c260a45]" name="initDriver" is-config="true" duration-ms="5000" started-at="2016-06-04T18:32:40Z" finished-at="2016-06-04T18:32:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initPage()[pri:0, instance:testcase.UserTestClass@5c260a45]" name="initPage" is-config="true" duration-ms="1" started-at="2016-06-04T18:32:45Z" finished-at="2016-06-04T18:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method status="PASS" signature="userCenterTestCase()[pri:0, instance:testcase.UserTestClass@5c260a45]" name="userCenterTestCase" duration-ms="11835" started-at="2016-06-04T18:32:45Z" finished-at="2016-06-04T18:32:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCenterTestCase -->
+        <test-method status="PASS" signature="destoryDriver()[pri:0, instance:testcase.UserTestClass@5c260a45]" name="destoryDriver" is-config="true" duration-ms="1186" started-at="2016-06-04T18:32:56Z" finished-at="2016-06-04T18:32:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destoryDriver -->
+      </class> <!-- testcase.UserTestClass -->
+      <class name="testcase.LoginTestClass">
+        <test-method status="PASS" signature="initDriver(java.lang.String)[pri:0, instance:testcase.LoginTestClass@3aefe6fd]" name="initDriver" is-config="true" duration-ms="5187" started-at="2016-06-04T18:31:27Z" finished-at="2016-06-04T18:31:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initPage()[pri:0, instance:testcase.LoginTestClass@3aefe6fd]" name="initPage" is-config="true" duration-ms="18" started-at="2016-06-04T18:31:33Z" finished-at="2016-06-04T18:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:testcase.LoginTestClass@3aefe6fd]" name="LoginTest" duration-ms="4901" started-at="2016-06-04T18:31:33Z" finished-at="2016-06-04T18:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="destoryDriver()[pri:0, instance:testcase.LoginTestClass@3aefe6fd]" name="destoryDriver" is-config="true" duration-ms="1424" started-at="2016-06-04T18:31:38Z" finished-at="2016-06-04T18:31:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destoryDriver -->
+      </class> <!-- testcase.LoginTestClass -->
+      <class name="testcase.ModifyAddressTestClass">
+        <test-method status="PASS" signature="initDriver(java.lang.String)[pri:0, instance:testcase.ModifyAddressTestClass@2e7c470b]" name="initDriver" is-config="true" duration-ms="3454" started-at="2016-06-04T18:31:58Z" finished-at="2016-06-04T18:32:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initPage()[pri:0, instance:testcase.ModifyAddressTestClass@2e7c470b]" name="initPage" is-config="true" duration-ms="1" started-at="2016-06-04T18:32:02Z" finished-at="2016-06-04T18:32:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method status="PASS" signature="modifyAddressTestCase()[pri:0, instance:testcase.ModifyAddressTestClass@2e7c470b]" name="modifyAddressTestCase" duration-ms="17198" started-at="2016-06-04T18:32:02Z" finished-at="2016-06-04T18:32:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyAddressTestCase -->
+        <test-method status="PASS" signature="destoryDriver()[pri:0, instance:testcase.ModifyAddressTestClass@2e7c470b]" name="destoryDriver" is-config="true" duration-ms="882" started-at="2016-06-04T18:32:19Z" finished-at="2016-06-04T18:32:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destoryDriver -->
+      </class> <!-- testcase.ModifyAddressTestClass -->
+      <class name="testcase.MessageTestClass">
+        <test-method status="PASS" signature="initDriver(java.lang.String)[pri:0, instance:testcase.MessageTestClass@4ff04845]" name="initDriver" is-config="true" duration-ms="3417" started-at="2016-06-04T18:31:39Z" finished-at="2016-06-04T18:31:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initPage()[pri:0, instance:testcase.MessageTestClass@4ff04845]" name="initPage" is-config="true" duration-ms="1" started-at="2016-06-04T18:31:42Z" finished-at="2016-06-04T18:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method status="PASS" signature="messageTestCase()[pri:0, instance:testcase.MessageTestClass@4ff04845]" name="messageTestCase" duration-ms="14689" started-at="2016-06-04T18:31:42Z" finished-at="2016-06-04T18:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- messageTestCase -->
+        <test-method status="PASS" signature="destoryDriver()[pri:0, instance:testcase.MessageTestClass@4ff04845]" name="destoryDriver" is-config="true" duration-ms="1128" started-at="2016-06-04T18:31:57Z" finished-at="2016-06-04T18:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destoryDriver -->
+      </class> <!-- testcase.MessageTestClass -->
+      <class name="testcase.ModifyInfoTestClass">
+        <test-method status="PASS" signature="initDriver(java.lang.String)[pri:0, instance:testcase.ModifyInfoTestClass@456c6746]" name="initDriver" is-config="true" duration-ms="3759" started-at="2016-06-04T18:32:20Z" finished-at="2016-06-04T18:32:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initPage()[pri:0, instance:testcase.ModifyInfoTestClass@456c6746]" name="initPage" is-config="true" duration-ms="1" started-at="2016-06-04T18:32:24Z" finished-at="2016-06-04T18:32:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method status="PASS" signature="modifyInfoTestCase()[pri:0, instance:testcase.ModifyInfoTestClass@456c6746]" name="modifyInfoTestCase" duration-ms="14935" started-at="2016-06-04T18:32:24Z" finished-at="2016-06-04T18:32:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyInfoTestCase -->
+        <test-method status="PASS" signature="destoryDriver()[pri:0, instance:testcase.ModifyInfoTestClass@456c6746]" name="destoryDriver" is-config="true" duration-ms="1167" started-at="2016-06-04T18:32:38Z" finished-at="2016-06-04T18:32:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destoryDriver -->
+      </class> <!-- testcase.ModifyInfoTestClass -->
+    </test> <!-- logintestcase²âÊÔÀà -->
+  </suite> <!-- logintestcase²âÊÔÌ×¼þ -->
+</testng-results>

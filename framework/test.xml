@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="parameters测试套件" thread-count="1" parallel="false" data-provider-thread-count="5" verbose="1">
+	<test name="parameters测试类" preserve-order="true" parallel="false" verbose="2">
+		<classes>
+			<class name="com.huice.auto.framework.driver.aa"/>
+		</classes>
+	</test>
+</suite>

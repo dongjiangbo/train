@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [logintestcase测试套件]" data-provider-thread-count="5">
+  <test name="logintestcase测试类(failed)">
+    <classes>
+      <class name="testcase.MessageTestClass">
+        <methods>
+          <include name="destoryDriver"/>
+          <include name="intiPage"/>
+          <include name="initDriver"/>
+          <include name="messageTestCase"/>
+        </methods>
+      </class> <!-- testcase.MessageTestClass -->
+      <class name="testcase.ModifyInfoTestClass">
+        <methods>
+          <include name="intiPage"/>
+          <include name="destoryDriver"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- testcase.ModifyInfoTestClass -->
+      <class name="testcase.LoginTestClass">
+        <methods>
+          <include name="destoryDriver"/>
+          <include name="initDriver"/>
+          <include name="initPage"/>
+        </methods>
+      </class> <!-- testcase.LoginTestClass -->
+      <class name="testcase.UserTestClass">
+        <methods>
+          <include name="destoryDriver"/>
+          <include name="initPage"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- testcase.UserTestClass -->
+      <class name="testcase.ModifyAddressTestClass">
+        <methods>
+          <include name="destoryDriver"/>
+          <include name="intiPage"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- testcase.ModifyAddressTestClass -->
+    </classes>
+  </test> <!-- logintestcase测试类(failed) -->
+</suite> <!-- Failed suite [logintestcase测试套件] -->

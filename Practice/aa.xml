@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="aa测试套件" thread-count="1" parallel="false" data-provider-thread-count="5" verbose="1">
+	<test name="aa测试类" preserve-order="true" parallel="false" verbose="2">
+		<classes>
+			<class name="LoginClass.aa"/>
+		</classes>
+	</test>
+	<listeners>
+		<listener class-name="com.huice.auto.framework.listener.Listener" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	</listeners>
+</suite>
